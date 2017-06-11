@@ -783,9 +783,9 @@ public class Build {
      */
     public static boolean isBuildConsistent() {
         // Don't care on eng builds.  Incremental build may trigger false negative.
-        if ("eng".equals(TYPE)) return true;
+        //if ("eng".equals(TYPE)) return true;
 
-        final String system = SystemProperties.get("ro.build.fingerprint");
+        /*final String system = SystemProperties.get("ro.build.fingerprint");
         final String vendor = SystemProperties.get("ro.vendor.build.fingerprint");
         final String bootimage = SystemProperties.get("ro.bootimage.build.fingerprint");
         final String requiredBootloader = SystemProperties.get("ro.build.expect.bootloader");
@@ -804,7 +804,7 @@ public class Build {
                         + " but vendor reported " + vendor);
                 return false;
             }
-        }
+        }*/
 
         /* TODO: Figure out issue with checks failing
         if (!TextUtils.isEmpty(bootimage)) {
