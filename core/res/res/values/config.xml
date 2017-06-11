@@ -2096,6 +2096,8 @@
         <item>restart</item>
         <item>bugreport</item>
         <item>users</item>
+        <item>airplane</item>
+        <item>silent</item>
     </string-array>
 
     <!-- Number of milliseconds to hold a wake lock to ensure that drawing is fully
