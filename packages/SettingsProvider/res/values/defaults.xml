@@ -31,14 +31,14 @@
     <bool name="def_accelerometer_rotation">true</bool>
     <!-- Default screen brightness, from 0 to 255.  102 is 40%. -->
     <integer name="def_screen_brightness">102</integer>
-    <bool name="def_screen_brightness_automatic_mode">false</bool>
+    <bool name="def_screen_brightness_automatic_mode">true</bool>
     <fraction name="def_window_animation_scale">100%</fraction>
     <fraction name="def_window_transition_scale">100%</fraction>
     <bool name="def_haptic_feedback">true</bool>
 
     <bool name="def_bluetooth_on">true</bool>
     <bool name="def_wifi_display_on">false</bool>
-    <bool name="def_install_non_market_apps">false</bool>
+    <bool name="def_install_non_market_apps">true</bool>
     <bool name="def_package_verifier_enable">true</bool>
     <!-- Comma-separated list of location providers.
          Network location is off by default because it requires
@@ -48,10 +48,10 @@
     <bool name="assisted_gps_enabled">true</bool>
     <bool name="def_netstats_enabled">true</bool>
     <bool name="def_usb_mass_storage_enabled">true</bool>
-    <bool name="def_wifi_on">false</bool>
+    <bool name="def_wifi_on">true</bool>
     <!-- 0 == never, 1 == only when plugged in, 2 == always -->
     <integer name="def_wifi_sleep_policy">2</integer>
-    <bool name="def_networks_available_notification_on">true</bool>
+    <bool name="def_networks_available_notification_on">false</bool>
 
     <bool name="def_backup_enabled">false</bool>
     <string name="def_backup_transport" translatable="false">android/com.android.internal.backup.LocalTransport</string>
@@ -167,7 +167,7 @@
     <bool name="def_sound_effects_enabled">true</bool>
 
     <!-- Development settings -->
-    <bool name="def_stay_on_while_plugged_in">false</bool>
+    <bool name="def_stay_on_while_plugged_in">true</bool>
 
     <!-- Number of retries for connecting to DHCP.
          Value here is the same as WifiStateMachine.DEFAULT_MAX_DHCP_RETRIES -->
